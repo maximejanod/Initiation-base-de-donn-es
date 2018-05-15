@@ -1,5 +1,9 @@
 <?php
 
+    include("index.php");
+
+    echo "<br>";
+
     // Connexion base de données
     $host_name = "localhost";
     $database = "initiationAuxDonnees";

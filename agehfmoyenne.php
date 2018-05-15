@@ -1,5 +1,9 @@
     <?php
 
+    include("index.php");
+
+    echo "<br>";
+
     try
     {
         $bdd = new PDO('mysql:host=localhost;dbname=initiationAuxDonnees;charset=utf8', 'root', 'stagiaire');
